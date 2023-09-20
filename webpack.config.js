@@ -63,6 +63,16 @@ module.exports = (_, argv) => ({
         "./getWeatherDataRemote": "./src/redux/weatherApi/actions/getWeatherData",
 
         // mern table actions
+        "./addEmployee": "./src/redux/mernTable/actions/employeeActions/addEmployee",
+        "./addEmployeeReset": "./src/redux/mernTable/actions/employeeActions/addEmployee",
+        "./deleteEmployee": "./src/redux/mernTable/actions/employeeActions/deleteEmployee",
+        "./deleteEmployeeReset": "./src/redux/mernTable/actions/employeeActions/deleteEmployee",
+        "./editEmployee": "./src/redux/mernTable/actions/employeeActions/editEmployee",
+        "./editEmployeeReset": "./src/redux/mernTable/actions/employeeActions/editEmployee",
+        "./getEmployeeProfile": "./src/redux/mernTable/actions/employeeActions/getEmployeeProfile",
+        "./getEmployeeProfileReset": "./src/redux/mernTable/actions/employeeActions/getEmployeeProfile",
+        "./getEmployeeTable": "./src/redux/mernTable/actions/employeeActions/getEmployeeTable",
+        "./getEmployeeTableReset": "./src/redux/mernTable/actions/employeeActions/getEmployeeTable",
       },
       shared: {
         ...deps,
